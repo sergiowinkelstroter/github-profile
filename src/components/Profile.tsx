@@ -23,7 +23,7 @@ export function Profile() {
 
   return (
     <>
-      <img src="../github.png" alt="" className="m-auto mt-24  w-12" />
+      <img src="../assets/github.png" alt="" className="m-auto mt-24  w-12" />
       <div className="bg-neutral-50 w-3/4 md:w-[700px] p-6  m-auto mt-8 md:mt-12 mb-4 rounded-xl">
         <div className="flex justify-center">
           <input
