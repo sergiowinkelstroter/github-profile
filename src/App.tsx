@@ -1,11 +1,13 @@
-import { useState } from "react";
-import { Profile } from "./components/Profile";
+import { Container } from "./components/Container";
+import { Repos } from "./components/Repos";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="">
-      <Profile />
-    </div>
+    <Routes>
+      <Route path="/" element={<Container />} />
+      <Route path="/repos" element={<Repos />} />
+    </Routes>
   );
 }
 
